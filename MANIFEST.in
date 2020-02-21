@@ -1,0 +1,14 @@
+include MANIFEST.in
+include setup.py
+
+graft sndbase
+
+global-exclude *.so
+global-exclude *.pyd
+global-exclude *.pyc
+global-exclude .git*
+global-exclude .DS_Store
+global-exclude *.pyx
+global-exclude *.pyx~
+global-exclude *.c
+global-exclude *.h
