@@ -19,7 +19,7 @@ setuptools.setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     packages=['soundlab', 'soundlab.tests'],
-    url='https://github.com/gbeckers/sound',
+    url='https://github.com/gbeckers/soundlab',
     license='BSD-3',
     author='Gabriel J.L. Beckers',
     author_email='gabriel@gbeckers.nl',
